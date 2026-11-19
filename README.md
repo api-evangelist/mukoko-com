@@ -1,4 +1,4 @@
-# mukoko-com
+# Mukoko
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-mukoko-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://mukoko.com/
+Mukoko is Africa’s super app offering a unified platform for events, weather, news, and various services. It provides a single account across multiple Mukoko apps, accessible via web and mobile, targeting users seeking integrated information and functionality in regions with patchy connectivity. The platform includes apps like Mukoko News, Events, Weather, and more, aiming to simplify digital experiences across the continent.
+
+**Areas:** Company · SuperApp · Africa · Events · Weather · News
+
+## Mukoko on APIs.io
+
+Everything profiled for Mukoko is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mukoko-com/](https://apis.io/providers/mukoko-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Mukoko News API](https://apis.io/apis/mukoko-com/mukoko-com-news-api/) — Mukoko News. Articles, publishers and authors.
+- [Mukoko Service API](https://apis.io/apis/mukoko-com/mukoko-com-service-api/) — Health and the contract itself.
+- [Mukoko Weather API](https://apis.io/apis/mukoko-com/mukoko-com-weather-api/) — Mukoko Weather. Forecasts, air quality, aviation and places.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Mukoko Agentic Access](https://apis.io/agentic-access/mukoko-com/mukoko-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Article](https://apis.io/schemas/mukoko-com/mukoko-com-article/)
+- [Author](https://apis.io/schemas/mukoko-com/mukoko-com-author/)
+- [PageMeta](https://apis.io/schemas/mukoko-com/mukoko-com-page-meta/)
+- [Place](https://apis.io/schemas/mukoko-com/mukoko-com-place/)
+- [Publisher](https://apis.io/schemas/mukoko-com/mukoko-com-publisher/)
+- [WeatherData](https://apis.io/schemas/mukoko-com/mukoko-com-weather-data/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Mukoko Com Context](https://apis.io/jsonld/mukoko-com/mukoko-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Mukoko API Rules](https://apis.io/rules/mukoko-com/mukoko-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Mukoko Authentication](https://apis.io/security/mukoko-com/mukoko-com-authentication/)
+- [Mukoko Domain Security](https://apis.io/security/mukoko-com/mukoko-com-domain-security/)
+- [Mukoko Vulnerability Disclosure](https://apis.io/security/mukoko-com/mukoko-com-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.mukoko.com/)
+- [Documentation](https://docs.mukoko.com/)
+- [Getting started](https://docs.mukoko.com/quickstart)
+- [API reference](https://docs.mukoko.com/api-reference/introduction)
+- [Support](https://www.mukoko.com/help)
+- [Blog](https://www.mukoko.com/blog)
+- [Terms of service](https://www.mukoko.com/legal/terms)
+- [Privacy policy](https://www.mukoko.com/legal/privacy)
+- [GitHub](https://github.com/mintlify)
+
+## API Evangelist rating
+
+**Kin Score 54.0** — developing · rubric 0.27.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 69.6 |
+| Contract quality | 56.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 61.2 |
+| Access clarity | 34.2 |
+
+**Agent readiness 61.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mukoko-com/](https://apis.io/providers/mukoko-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Mukoko: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mukoko-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
